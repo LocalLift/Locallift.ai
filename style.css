@@ -1,0 +1,21 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    background-color: #fdfcf9;
+}
+
+.logo {
+    max-width: 180px;
+    margin-bottom: 20px;
+}
+
+header {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    display: inline-block;
+}

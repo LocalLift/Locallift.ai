@@ -1,21 +1,71 @@
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 40px;
-    background-color: #fdfcf9;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9fb;
+  color: #222;
+  line-height: 1.6;
+  text-align: center;
 }
-
 .logo {
-    max-width: 180px;
-    margin-bottom: 20px;
+  width: 120px;
+  margin-top: 30px;
 }
-
-header {
-    padding: 40px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 12px rgba(0,0,0,0.08);
-    display: inline-block;
+.hero {
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: white;
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+}
+.cta {
+  background: #ffcc00;
+  color: #1f1c2c;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.cta.dark {
+  background: #1f1c2c;
+  color: #fff;
+}
+.features, .services, .cta-block {
+  padding: 40px 20px;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+.grid div {
+  max-width: 280px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 20px;
+  border-radius: 10px;
+}
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+.services li {
+  font-size: 1.1rem;
+  margin: 12px 0;
+}
+footer {
+  background: #eee;
+  padding: 20px;
+  font-size: 0.9rem;
 }

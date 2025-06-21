@@ -1,0 +1,140 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+header.hero {
+    background: linear-gradient(to right, #0052cc, #007fff);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.logo {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ffffff;
+    color: #0052cc;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e6e6e6;
+}
+
+.btn.secondary {
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.services, .about, .testimonials, .cta {
+    background: #fff;
+    margin-top: 20px;
+    padding: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.services h2, .about h2, .testimonials h2, .cta h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.service-boxes .box {
+    background: #f9fbff;
+    padding: 25px;
+    border-radius: 8px;
+    flex: 1 1 220px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.service-boxes .box:hover {
+    transform: translateY(-5px);
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.badges {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.badges span {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #0052cc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.about p, .cta p {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+}
+
+footer {
+    background: #0a0f1c;
+    color: #aaa;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    line-height: 1.5;
+}
